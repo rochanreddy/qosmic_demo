@@ -20,19 +20,14 @@ import Preloader from "./component/preloader";
 import Home_Header from "./component/navigation/home_header";
 import Menu from "./component/menu";
 import {
-  useTransform,
-  motion,
   useScroll,
   useMotionValueEvent,
-  useMotionValue,
 } from "framer-motion";
-import NewHomeHeader from "./component/home/NewHomeHeader";
 
 export default function Home() {
   const width = globalThis.innerWidth;
 
   const [loader, setloader] = useState(true);
-  const [menu, setmenu] = useState(true);
   const [left, setleft] = useState("200vh");
   const [right, setright] = useState(width <= 650 ? "200vh" : "-200vh");
   const [height, setheight] = useState("0px");
@@ -48,9 +43,6 @@ export default function Home() {
     document.body.classList.add("hide_now");
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-  useEffect(() => {
-    console.log("window.dataLayer", window.dataLayer);
   }, []);
 
   useEffect(() => {
@@ -72,9 +64,6 @@ export default function Home() {
 
   // this function below changes the headers as being used
   const { scrollY } = useScroll();
-  const first = width * 0.54;
-  const second = width * 0.9;
-  const third = width * 1.93;
 
   useMotionValueEvent(scrollY, "change", (latest) => {
     if (width >= 651) {
@@ -118,7 +107,6 @@ export default function Home() {
         setwhite(1);
         setnav_ham(1);
         setnav_menu(1);
-        console.log("dkdidi");
       }
     } else if (width <= 650) {
       if (latest >= width * 16.55) {
@@ -150,23 +138,6 @@ export default function Home() {
     }
   });
 
-  const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
-    // Function to update screen size
-    const checkScreenSize = () => {
-      setIsMobile(window.innerWidth <= 650);
-    };
-
-    // Initial check
-    checkScreenSize();
-
-    // Add resize event listener
-    window.addEventListener("resize", checkScreenSize);
-
-    // Cleanup
-    return () => window.removeEventListener("resize", checkScreenSize);
-  }, []);
 
   return (
     <>
@@ -200,10 +171,7 @@ export default function Home() {
           nav_ham={nav_ham}
           nav_menu={nav_menu}
         />
-        {isMobile ? <NewHomeHeader /> : <Home_hero />}
-
-        {/* <NewHomeHeader />
-        <Home_hero /> */}
+        <Home_hero />
         <Highlight />
         <Home_Team />
         {/* <Home_about /> */}
