@@ -152,7 +152,7 @@ const Home_hero = () => {
     <>
       {" "}
       <motion.div
-        className={`w-full sm:h-[700vw] sm:relative sm:hidden h-[370vw] pt-[11.3vw]  flex flex-col items-center transition duration-[1.5s]`}
+        className={`w-full sm:h-[700vw] sm:relative h-[370vw] pt-[11.3vw]  flex flex-col items-center transition duration-[1.5s]`}
         // animate={{ backgroundColor: color }}
         transition={{ duration: 3 }}
         style={{ backgroundColor: color }}
