@@ -14,7 +14,6 @@ import Footer from "../component/fotter/footer";
 import Two from "../component/contact/two";
 import Menu from "../component/menu";
 import axios from "axios";
-import logo from "@/../public/logo.webp";
 import Logo from "../component/logo";
 import Image from "next/image";
 

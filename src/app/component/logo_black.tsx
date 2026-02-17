@@ -1,9 +1,6 @@
 "use client ";
 
-import Image from "next/image";
 import React from "react";
-import logo from "../../../public/logo_black.webp";
-import mobile_logo from "../../../public/mobile_logo_black.webp";
 
 const Logo_black = () => {
   return (

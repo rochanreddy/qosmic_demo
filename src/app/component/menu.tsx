@@ -3,8 +3,6 @@
 import { motion } from "framer-motion";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-import Image from "next/image";
-import logo from "../../../public/logo.webp";
 import rev from "../../../public/menu/rev.webp";
 import star from "../../../public/menu/star.webp";
 import { useState } from "react";
@@ -75,12 +73,7 @@ const Menu = (props: any) => {
         >
           {/* this link is set on position relative  */}
           <Link href="/" className=" absolute top-[1.65vw]">
-            <Image
-              priority
-              src={logo}
-              alt="menu image"
-              className="w-[6.62vw]   h-fit"
-            />
+            <span className="text-white font-bold text-[2vw] tracking-wide">QOSMIC</span>
           </Link>
 
           <div className=" h-[38vw]  sm:hidden  w-full flex justify-end  flex-col ">

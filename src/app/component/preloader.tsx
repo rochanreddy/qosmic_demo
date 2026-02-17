@@ -1,8 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
-import preloader_logo from "../../../public/logo.webp";
-import Image from "next/image";
 
 const Preloader = (props: any) => {
   const {
@@ -69,33 +67,26 @@ const Preloader = (props: any) => {
           className={`absolute bottom-[-60vh] right-[-80vw] transition duration-[4s] border2  triangle `}
           style={{
             transform: `translate(${transX1} , ${transY1})`,
-            borderBottom: `200vh solid ${
-              traingle_color ? traingle_color : "black"
-            } `,
+            borderBottom: `200vh solid ${traingle_color ? traingle_color : "black"
+              } `,
           }}
         ></div>
         <div
           className={`absolute transition duration-[4s] top-[-60vh] left-[-80vw]  border2 triangle2   `}
           style={{
             transform: `translate(${transX1} , ${transY1})`,
-            borderBottom: `200vh solid ${
-              traingle_color ? traingle_color : "black"
-            } `,
+            borderBottom: `200vh solid ${traingle_color ? traingle_color : "black"
+              } `,
           }}
         ></div>
         <motion.div
           // initial={{ scale: 1.5 }}
           // animate={{ width: "10vw", height: "10vw", scale: 0.7 }}
           // transition={{ duration: 5 }}
-          className={`  w-[15vw] transition duration-[2s] h-auto`}
+          className={`  w-[15vw] transition duration-[2s] h-auto flex justify-center items-center`}
           style={{ scale: scale, opacity: preloader_img_opacity }}
         >
-          <Image
-            src={preloader_logo}
-            alt="preloader image"
-            priority
-            className="w-full h-fit z-[9999999]"
-          />
+          <span className="text-white font-bold text-[4vw] tracking-wide z-[9999999]">QOSMIC</span>
         </motion.div>
 
         {/* for the two traingles that would fade away */}
@@ -182,33 +173,26 @@ const Preloader = (props: any) => {
           className="absolute bottom-[-140vh] right-[-200vw] transition duration-[4s] border2 triangle "
           style={{
             transform: `translate(${transX1} , ${transY1})`,
-            borderBottom: `220vh solid ${
-              traingle_color ? traingle_color : "black"
-            } `,
+            borderBottom: `220vh solid ${traingle_color ? traingle_color : "black"
+              } `,
           }}
         ></div>
         <div
           className="absolute transition duration-[4s] top-[-140vh] left-[-200vw]  border2 triangle2   "
           style={{
             transform: `translate(${transX1} , ${transY1})`,
-            borderBottom: `220vh solid ${
-              traingle_color ? traingle_color : "black"
-            } `,
+            borderBottom: `220vh solid ${traingle_color ? traingle_color : "black"
+              } `,
           }}
         ></div>
         <motion.div
           // initial={{ scale: 1.5 }}
           // animate={{ width: "10vw", height: "10vw", scale: 0.7 }}
           // transition={{ duration: 5 }}
-          className={`  w-[50vw] transition duration-[2s] h-auto`}
+          className={`  w-[50vw] transition duration-[2s] h-auto flex justify-center items-center`}
           style={{ scale: scale, opacity: preloader_img_opacity }}
         >
-          <Image
-            src={preloader_logo}
-            priority
-            alt="preloader image"
-            className="w-full h-fit z-[9999999]"
-          />
+          <span className="text-white font-bold text-[12vw] tracking-wide z-[9999999]">QOSMIC</span>
         </motion.div>
 
         {/* for the two traingles that would fade away */}
