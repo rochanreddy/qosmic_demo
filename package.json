@@ -1,0 +1,59 @@
+{
+  "name": "qosmic_agency",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@analytics/google-analytics": "^1.0.7",
+    "@next/third-parties": "^16.0.0",
+    "@sendgrid/mail": "^7.7.0",
+    "@supabase/supabase-js": "^2.46.1",
+    "@types/node": "20.4.4",
+    "@types/react": "18.2.15",
+    "@types/react-dom": "18.2.7",
+    "analytics": "^0.8.9",
+    "autoprefixer": "10.4.14",
+    "axios": "^1.7.7",
+    "bootstrap-icons": "^1.10.5",
+    "cordova-plugin-ionic-webview": "^5.0.0",
+    "eslint": "8.45.0",
+    "eslint-config-next": "13.4.12",
+    "firebase": "^11.0.2",
+    "framer-motion": "^10.16.4",
+    "gsap": "^3.12.5",
+    "helmet": "^7.0.0",
+    "next": "^16.0.8",
+    "nodemailer": "^6.9.5",
+    "postcss": "8.4.27",
+    "react": "18.2.0",
+    "react-calendly": "^4.3.0",
+    "react-cool-inview": "^3.0.1",
+    "react-dom": "18.2.0",
+    "react-facebook-pixel": "^1.0.4",
+    "react-gtm-module": "^2.0.11",
+    "react-helmet": "^6.1.0",
+    "react-player": "^2.12.0",
+    "react-scroll": "^1.8.9",
+    "react-simple-typewriter": "^5.0.1",
+    "resend": "^0.16.0",
+    "sharp": "^0.34.5",
+    "tailwindcss": "3.3.3",
+    "typescript": "5.1.6",
+    "typewriter-effect": "^2.21.0"
+  },
+  "devDependencies": {
+    "@types/gtag.js": "^0.0.13",
+    "@types/nodemailer": "^6.4.10",
+    "@types/react-gtm-module": "^2.0.4",
+    "@types/react-helmet": "^6.1.6"
+  },
+  "optionalDependencies": {
+    "@tailwindcss/oxide-linux-x64-gnu": "^4.0.14",
+    "lightningcss-linux-x64-gnu": "^1.29"
+  }
+}

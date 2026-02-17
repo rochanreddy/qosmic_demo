@@ -1,0 +1,28 @@
+import "bootstrap-icons/font/bootstrap-icons.css";
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import "bootstrap-icons/font/bootstrap-icons.css";
+
+// import * as gtag from "../app/gtag";
+
+const inter = Inter({ subsets: ["latin"] });
+
+export const metadata: Metadata = {
+  title: "Qosmic",
+  description: "Qosmic services",
+  other: {
+    "msvalidate.01": "7F19A1D05342FB69BD2941A0E771D847",
+  },
+};
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <main style={{ backgroundColor: "" }} className={inter.className}>
+      {children}
+    </main>
+  );
+}

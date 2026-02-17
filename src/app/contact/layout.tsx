@@ -1,0 +1,23 @@
+import { GoogleTagManager } from "@next/third-parties/google";
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import Script from "next/script";
+
+const inter = Inter({ subsets: ["latin"] });
+
+export const metadata: Metadata = {
+  title: "Contact Qosmic",
+  description: "Qosmic Designs Contact Page",
+};
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <main style={{ backgroundColor: "" }} className={inter.className}>
+      {children}
+    </main>
+  );
+}

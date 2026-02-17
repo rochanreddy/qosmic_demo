@@ -1,0 +1,519 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=League+Spartan:wght@500;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-appearance: none !important;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  /* overflow-x: hidden; */
+  /* contain: paint; */
+  overflow-x: clip;
+}
+
+.change_bg_to_white {
+  background-color: white;
+}
+.change_bg_to_black {
+  background-color: #0e0e0e;
+}
+
+.hide_now {
+  overflow-y: clip;
+  height: 101vh;
+}
+/* styling for the input eflements on the contact page  */
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+@font-face {
+  font-family: "nova";
+
+  src: url("../../public/fonts/UnivaNova-Hairline.ttf");
+  src: url("../../public/fonts/UnivaNova-Heavy.ttf");
+  src: url("../../public/fonts/UnivaNova-Light.ttf");
+
+  src: url("../../public/fonts/UnivaNova-SemiBold.ttf");
+  /* src: url("../../public/fonts/UnivaNova-Italic.ttf"); */
+
+  src: url("../../public/fonts/UnivaNova-Thin.ttf");
+  src: url("../../public/fonts/UnivaNova-Italic.ttf");
+  src: url("../../public/fonts/UnivaNova-Bold.ttf");
+  src: url("../../public/fonts/UnivaNova-Regular.ttf");
+
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* @font-face{
+  font-family: "helvetica";
+
+} */
+
+@font-face {
+  font-family: "novabold";
+  src: url("../../public/fonts/UnivaNova-Medium.ttf");
+}
+
+@font-face {
+  font-family: "proxima_nova";
+  src: url("../../public/fonts/Fontspring-DEMO-proximanovacond-black.otf");
+}
+
+.border2 {
+  border: 1px solid red;
+}
+
+.p_r {
+  padding-right: 3vw;
+  padding-left: 3vw;
+}
+
+.proxima {
+  font-family: proxima_nova, sans-serif;
+}
+.nova {
+  font-family: nova, sans-serif;
+}
+
+.novabold {
+  font-family: novabold, sans-serif;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+}
+
+.league {
+  /* font-family: "League Spartan", sans-serif; */
+}
+.hand_bg {
+  background-image: url(../../public/home/hand_bg.webp);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.before_client_logo {
+  background-image: url(../../public/home/before_logo.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.home_about {
+  background-image: url(../../public/home/about.webp);
+  background-size: cover;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+
+/* for the about section */
+
+.home_about_left {
+  animation-name: home_left;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  transition: 1s ease;
+}
+.home_about_right {
+  animation-name: home_right;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  transition: 1s ease;
+  translate: 0px -70vw;
+}
+
+@keyframes home_left {
+  0% {
+    translate: 0vw 0vw;
+  }
+  50% {
+    translate: 0vw -70vw;
+  }
+  100% {
+    translate: 0vw 0vw;
+  }
+}
+@keyframes home_right {
+  0% {
+    translate: 0vw -70vw;
+  }
+  50% {
+    translate: 0vw 0vw;
+  }
+  100% {
+    translate: 0vw -70vw;
+  }
+}
+
+/* this is for the second home about  */
+.home_about_img {
+  background-image: url(../../public/home/home_about_img.webp);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+/* this is for the aim  */
+.aim {
+  background-image: url(../../public/home/aim.webp);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+/* .home_service {
+  background-image: url(../../public/home/home_service.webp);
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+} */
+
+/* for the portfolio data  */
+.port_gen {
+  background-size: 120%;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+/* *************SERVICES PAGE ******* */
+.method_bg {
+  background-image: url(../../public/services/method.webp);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.hero_bg {
+  background-image: url(../../public/services/hero.webp);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.blend {
+  mix-blend-mode: hard-light;
+}
+
+.simple_bg {
+  background-image: url(../../public/services/simple.webp);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.laptop_footer_bg {
+  background-image: url(../../public/services/laptop_footer.webp);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.timeline_right {
+  background-image: url(../../public/services/timeline_mak.webp);
+  background-size: cover;
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+
+.timeline_top {
+  background-image: url(../../public/services/timeline_top.webp);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.port_text {
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+.port_wrap {
+  transition: 0.4s ease-in;
+  border: 1px solid black;
+}
+.port_wrap:hover {
+  background-color: black;
+}
+.port_first_text {
+  color: #7f7f7f;
+  font-family: nova;
+  font-size: 1.07vw;
+}
+.port_wrap:hover .port_text {
+  color: white;
+}
+.port_ctn {
+  border: 1px solid black;
+  border-radius: 100%;
+  font-size: 1.6vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  height: 2.7vw;
+  width: 2.7vw;
+}
+.port_wrap:hover .port_ctn {
+  border: 0.133vw solid white;
+}
+
+/* ********************THIS IS FOR TH WORKS PAGE SHA  *******************/
+
+/* .works:hover {
+  background-color: #d01717;
+} */
+
+.top {
+  background-color: #393939;
+}
+
+.middle {
+  background-color: #222222;
+}
+
+.edges {
+  background-color: #7c1a1a;
+}
+
+/* for the home client section
+ */
+.home_edge {
+  background-color: #d01717;
+}
+
+/* agile movement on the home page thats fot the animation that goes up nd down around  */
+.agile {
+  height: 17vw;
+}
+
+/* this is for the new services styling sha . now let's hop in  */
+
+.triangle {
+  /* width: 0; */
+  height: 0;
+  border-left: 80vw solid transparent;
+  border-right: 80vw solid transparent;
+  rotate: 135deg;
+  border-bottom: 200vh solid black;
+}
+.triangle2 {
+  width: 0;
+  height: 0;
+  border-left: 80vw solid transparent;
+  border-right: 80vw solid transparent;
+  rotate: -45deg;
+  border-bottom: 200vh solid black;
+}
+
+@media screen and (max-width: 650px) {
+  .p_r {
+    padding-right: 3.75vw;
+    padding-left: 3.75vw;
+  }
+
+  /* this is for the menu mobile */
+  .hide_menu {
+    display: none;
+    width: 0px;
+    position: absolute;
+    left: -50vw;
+  }
+
+  /* for the services page */
+  .timeline_top {
+    background-image: url(../../public/services/mob_timeline.webp);
+    background-position: right top;
+  }
+
+  /* for the services footer 
+   */
+  .laptop_footer_bg {
+    background-image: url(../../public/services/mobile_laptop_footer.webp);
+    background-size: cover;
+  }
+
+  /* service page  portfolio text*/
+  .port_text {
+    font-size: 4.5vw;
+  }
+
+  .port_first_text {
+    font-size: 3vw;
+  }
+
+  .port_ctn {
+    border: 0.25vw solid black;
+    border-radius: 100%;
+    font-size: 1.6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    height: 11vw;
+    width: 11vw;
+  }
+
+  .hand_bg {
+    background-image: url(../../public/home/hand_bg.webp);
+    background-size: 200vw;
+    background-position: top center;
+    background-repeat: no-repeat;
+  }
+
+  .agile {
+    height: 32vw;
+  }
+
+  .home_about_left {
+    animation-name: home_left;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    transition: 1s ease;
+  }
+  .home_about_right {
+    animation-name: home_right;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    transition: 1s ease;
+    translate: 0px -100.3vw;
+  }
+
+  @keyframes home_left {
+    0% {
+      translate: 0vw 0vw;
+    }
+    50% {
+      translate: 0vw -100.3vw;
+    }
+    100% {
+      translate: 0vw 0vw;
+    }
+  }
+  @keyframes home_right {
+    0% {
+      translate: 0vw -100.3vw;
+    }
+    50% {
+      translate: 0vw 0vw;
+    }
+    100% {
+      translate: 0vw -100.3vw;
+    }
+  }
+
+  /* this is for the aim */
+  /* this is for the aim  */
+  .aim {
+    background-image: url(../../public/home/mob_aim.webp);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  /* for the portfolio data  */
+  .port_gen {
+    background-size: 120%;
+    background-position: bottom top;
+    background-repeat: no-repeat;
+  }
+
+  /*tis is for the homepage team section no scrollbar  */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .triangle {
+    width: 0;
+    height: 0;
+    border-left: 110vw solid transparent;
+    border-right: 110vw solid transparent;
+    rotate: 135deg;
+    border-bottom: 220vh solid black;
+  }
+  .triangle2 {
+    width: 0;
+    height: 0;
+    border-left: 110vw solid transparent;
+
+    border-right: 110vw solid transparent;
+
+    rotate: -45deg;
+    border-bottom: 220vh solid black;
+  }
+}
+
+.select {
+  appearance: auto !important;
+  -webkit-appearance: auto !important;
+  -moz-appearance: auto !important;
+  /* background-color: #ff0000; */
+  /* background: url("data:image/svg+xml;base64,...") no-repeat right center; Replace with your arrow SVG */
+  /* background-size: 1rem; */
+  /* padding-right: 2em; Make space for the arrow */
+  /* border: 1px solid #ccc; Style as needed */
+  /* border-radius: 2vw; */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide_scroll_bar::-webkit-scrollbar {
+  display: none;
+}
+
+@keyframes innovation_translate {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -147.5%;
+  }
+}
+
+@keyframes innovation_translate_mobile {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -330.5%;
+  }
+}
+
+.innovation_translate {
+  animation: innovation_translate 15s linear infinite; /* Adjust the duration as needed */
+  /* animation-delay: 0s, -5s; */
+}
+
+.innovation_translate:hover {
+  animation-play-state: paused;
+}
+
+@media screen and (max-width: 650px) {
+  .innovation_translate {
+    animation: innovation_translate_mobile 12s linear infinite; /* Adjust the duration as needed */
+    /* animation-delay: 0s, -5s; */
+  }
+}
+
+.show_item {
+  opacity: 1;
+  transform: translateY(0);
+}
