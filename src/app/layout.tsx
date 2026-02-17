@@ -12,6 +12,10 @@ import Script from "next/script";
 export const metadata: Metadata = {
   title: "Qosmic",
   description: "Qosmic Designs and Deployment",
+  icons: {
+    icon: [],
+    apple: [],
+  },
   other: {
     "msvalidate.01": "7F19A1D05342FB69BD2941A0E771D847",
   },
@@ -64,9 +68,8 @@ export default function RootLayout({
       <body className="">
         <noscript>
           <iframe
-            src={`https://www.googletagmanager.com/ns.html?id=${
-              process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID || ""
-            }`}
+            src={`https://www.googletagmanager.com/ns.html?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID || ""
+              }`}
             height="0"
             width="0"
             style={{ display: "none", visibility: "hidden" }}
