@@ -78,7 +78,7 @@ const NewHomeHeader = () => {
               //   onClick={() => {
               //     scrollTo_calendy();
               //   }}
-              className={` capitalize   hover:bg-opacity-[80%] w-[13.5vw] h-[4.4vw] rounded-[3vw] sm:rounded-[8.75vw] flex justify-center items-center text-[1.5vw] ${CabinetGrotesk_bold.className} bg-[#D01717] text-white`}
+              className={` capitalize   hover:bg-opacity-[80%] w-[13.5vw] h-[4.4vw] rounded-[3vw] sm:rounded-[8.75vw] flex justify-center items-center text-[1.5vw] ${CabinetGrotesk_bold.className} bg-[#ffd700] text-white`}
             >
               get started
             </Link>

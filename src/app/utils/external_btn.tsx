@@ -12,7 +12,7 @@ const External_btn = ({ h, w, bg, img, btn_bg_color, arrow_icon }: any) => {
         onClick={() => {
           scrollTo_calendy();
         }}
-        className="bg-[#D01717]  cursor-pointer relative rounded-[100%] overflow-hidden sm:hidden flex justify-center items-center"
+        className="bg-[#ffd700]  cursor-pointer relative rounded-[100%] overflow-hidden sm:hidden flex justify-center items-center"
         style={{
           width: `${w}vw`,
           height: `${h}vw`,

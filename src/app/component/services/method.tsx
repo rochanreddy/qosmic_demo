@@ -19,7 +19,7 @@ const Method = () => {
       <div className="w-full px-[6.7vw] sm:px-[3.5vw] pb-[3.3vw] flex  flex-col gap-[3.3vw] ">
         <div className="w-full sm:flex-col  flex justify-between items-center sm:gap-[7vw] ">
           <div className="flex flex-col gap-[0.8vw] sm:gap-[2.5vw] w-full ">
-            <p className="text-[1.6vw] nova font-[900] text-[#D01717] capitalize sm:text-[3vw]">
+            <p className="text-[1.6vw] nova font-[900] text-[#ffd700] capitalize sm:text-[3vw]">
               method
             </p>
             <h1 className="novabold w-full sm:hidden  font-[500] text-black text-[4vw] capitalize sm:text-[5.5vw]">

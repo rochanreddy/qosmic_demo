@@ -90,7 +90,7 @@ const Highlight = () => {
       <div className="w-full flex justify-center pb-[6.7vw]">
         <Link
           href="contact"
-          className="  text-[20px] h-auto font[500]  rounded-[39px] px-[50px] py-[16px] bg-[#D01717] text-white hover:bg-[#920808] sm:text-[3.5vw] sm:mb-[18vw] sm:mt-[2vw]"
+          className="  text-[20px] h-auto font[500]  rounded-[39px] px-[50px] py-[16px] bg-[#ffd700] text-white hover:bg-[#ffd700] sm:text-[3.5vw] sm:mb-[18vw] sm:mt-[2vw]"
         >
           Work with us <i className="bi bi-arrow-right"></i>
         </Link>

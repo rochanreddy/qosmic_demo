@@ -65,7 +65,7 @@ const Go_high_level_success = ({
           {shouldShowForm && (
             <Link
               href="/campaign"
-              className="nova  text-[1.07vw] font[900] text-white rounded-[2.6vw] px-[3.8vw] py-[1.07vw] bg-[#D01717]  hover:bg-[#920808] sm:text-[4vw] sm:py-[3.5vw] sm:px-[11vw] sm:rounded-[9.75vw]"
+              className="nova  text-[1.07vw] font[900] text-white rounded-[2.6vw] px-[3.8vw] py-[1.07vw] bg-[#ffd700]  hover:bg-[#ffd700] sm:text-[4vw] sm:py-[3.5vw] sm:px-[11vw] sm:rounded-[9.75vw]"
             >
               Return to Home <i className="bi bi-arrow-right"></i>
             </Link>

@@ -50,7 +50,7 @@ const Two = (props: any) => {
             transition={{ delay: 0, duration: 1.5 }}
             className="w-full h-auto flex flex-col gap-[3.3vw] text nova text-white text-opacity-[50%] sm:gap-[18vw] sm:pb-[12vw]"
           >
-            <p className="text-[#D01717] nova ">{err}</p>
+            <p className="text-[#ffd700] nova ">{err}</p>
             {/* interested in what   */}
             <div className="flex flex-col">
               <select
@@ -64,7 +64,7 @@ const Two = (props: any) => {
               >
                 <option style={{}} value="" disabled selected hidden>
                   What are you interested in ?{" "}
-                  <span className="text-[#D01717] ">*</span>
+                  <span className="text-[#ffd700] ">*</span>
                 </option>
                 <option
                   style={{ color: "white" }}
@@ -197,7 +197,7 @@ const Two = (props: any) => {
             {/* ctn button */}
             <div className="w-full  flex justify-between">
               <button
-                className="nova  text-[1.07vw] font[900]  rounded-[2.6vw] px-[3.8vw] py-[1.07vw] border-[#D01717] border2 text-white hover:bg-[#920808] flex justify-center items-center gap-[0.33vw] sm:text-[4vw]  sm:block   font[900]  sm:rounded-[9.75vw] sm:px-[11vw] w-fit sm:py-[3.5vw] sm:hover:border-[0px] sm:text-white "
+                className="nova  text-[1.07vw] font[900]  rounded-[2.6vw] px-[3.8vw] py-[1.07vw] border-[#ffd700] border2 text-white hover:bg-[#ffd700] flex justify-center items-center gap-[0.33vw] sm:text-[4vw]  sm:block   font[900]  sm:rounded-[9.75vw] sm:px-[11vw] w-fit sm:py-[3.5vw] sm:hover:border-[0px] sm:text-white "
                 onClick={() => {
                   handleback(1);
                 }}
@@ -205,7 +205,7 @@ const Two = (props: any) => {
                 <i className="bi bi-arrow-left"></i> Back
               </button>
               <button
-                className="nova  text-[1.07vw] font[900] text-white rounded-[2.6vw] px-[3.8vw] py-[1.07vw] bg-[#D01717]  hover:bg-[#920808] flex justify-center items-center gap-[0.4vw] sm:text-[4vw]  sm:block   font[900]  sm:rounded-[9.75vw] sm:px-[11vw] w-fit sm:py-[3.5vw]  sm:text-white "
+                className="nova  text-[1.07vw] font[900] text-white rounded-[2.6vw] px-[3.8vw] py-[1.07vw] bg-[#ffd700]  hover:bg-[#ffd700] flex justify-center items-center gap-[0.4vw] sm:text-[4vw]  sm:block   font[900]  sm:rounded-[9.75vw] sm:px-[11vw] w-fit sm:py-[3.5vw]  sm:text-white "
                 onClick={() => {
                   handle_submit();
                 }}

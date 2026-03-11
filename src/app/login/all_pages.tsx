@@ -117,7 +117,7 @@ const All_pages = () => {
                   {/* Delete button with deletePage function */}
                   <button
                     onClick={() => deletePage(e.id)}
-                    className="underline w-fit text-red-500"
+                    className="underline w-fit text-[#ffd700]"
                   >
                     Delete
                   </button>

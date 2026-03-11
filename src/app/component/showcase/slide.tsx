@@ -140,7 +140,7 @@ const Slide_showcase = () => {
 
           <Link
             href={"/contact"}
-            className={`${league.className} league hidden sm:block fixed bottom-[4vw] z-[11] left-[50%] translate-x-[-50%] w-[70vw] h-[13vw] text-[6vw] hover:bg-[#920808] bg-[#D01717] text-white  sm:rounded-[9.75vw]`}
+            className={`${league.className} league hidden sm:block fixed bottom-[4vw] z-[11] left-[50%] translate-x-[-50%] w-[70vw] h-[13vw] text-[6vw] hover:bg-[#ffd700] bg-[#ffd700] text-white  sm:rounded-[9.75vw]`}
           >
             <p className="w-full h-full flex justify-center items-center ">
               {" "}
@@ -160,7 +160,7 @@ const Slide_showcase = () => {
                 <Link
                   href={e.link}
                   target="_blank"
-                  className="w-[70%]  sm:w-[90vw] h-auto flex flex-col gap-[0.2vw] text-white hover:scale-[1.01] hover:text-[#D01717] transition duration-[0.3s]"
+                  className="w-[70%]  sm:w-[90vw] h-auto flex flex-col gap-[0.2vw] text-white hover:scale-[1.01] hover:text-[#ffd700] transition duration-[0.3s]"
                   key={index}
                 >
                   <div className="w-full h-[35vw] sm:h-[50vw] overflow-hidden flex justify-center items-center ">

@@ -89,7 +89,7 @@ export default function Home_wrapper() {
         />
       </div>
       <Footer_hand show_btn={false} text_color={"#000000"} />
-      {/* <Footer landing={true} btn_bg_color={"#D01717"} /> */}
+      {/* <Footer landing={true} btn_bg_color={"#ffd700"} /> */}
     </>
   );
 }

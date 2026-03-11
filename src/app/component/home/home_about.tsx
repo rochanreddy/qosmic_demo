@@ -42,7 +42,7 @@ const Home_about = () => {
             <h1 className="text-[2vw] nova capitalize text-white sm:text-[6vw]">
               We Remain <br /> agile and <br /> adaptable
             </h1>
-            <button className="nova  text-[1.07vw]  font[900] rounded-[2.6vw] px-[3.3vw] py-[1.07vw] sm:text-[3vw]  border-black bg-[#D01717] text-white w-fit hover:bg-[#920808] sm:px-[4vw] sm:py-[2vw] sm:rounded-[6vw]">
+            <button className="nova  text-[1.07vw]  font[900] rounded-[2.6vw] px-[3.3vw] py-[1.07vw] sm:text-[3vw]  border-black bg-[#ffd700] text-white w-fit hover:bg-[#ffd700] sm:px-[4vw] sm:py-[2vw] sm:rounded-[6vw]">
               Learn more <i className="bi bi-arrow-right"></i>
             </button>
           </div>
@@ -63,7 +63,7 @@ const Home_about = () => {
                       <p className="inter font-medium">
                         {e.text1} <br /> {e.text2}
                       </p>
-                      <p className="text-[red] font-[900]  py-[0.7vw] px-[1vw] rounded-[100%] bg-[#F3F3F3] flex justify-center items-center text-[1.3vw] h-fit sm:text-[3vw] sm:px-[2vw] sm:py-[1.4vw]">
+                      <p className="text-[#ffd700] font-[900]  py-[0.7vw] px-[1vw] rounded-[100%] bg-[#F3F3F3] flex justify-center items-center text-[1.3vw] h-fit sm:text-[3vw] sm:px-[2vw] sm:py-[1.4vw]">
                         <i className="bi bi-arrow-up-right"></i>
                       </p>
                     </div>
@@ -85,7 +85,7 @@ const Home_about = () => {
                       <p className="inter font-medium">
                         {e.text1} <br /> {e.text2}
                       </p>
-                      <p className="text-[red] font-[900] py-[0.7vw] px-[1vw] rounded-[100%] bg-[#F3F3F3] flex justify-center items-center text-[1.3vw] h-fit sm:text-[3vw] sm:px-[2vw] sm:py-[1.4vw]">
+                      <p className="text-[#ffd700] font-[900] py-[0.7vw] px-[1vw] rounded-[100%] bg-[#F3F3F3] flex justify-center items-center text-[1.3vw] h-fit sm:text-[3vw] sm:px-[2vw] sm:py-[1.4vw]">
                         <i className="bi bi-arrow-up-right"></i>
                       </p>
                     </div>

@@ -72,7 +72,7 @@ const Modal_text_edit = ({
             />
           </div>
           {/* the links for viewing */}
-          {error && <p className="text-red-500 ">{error}</p>}
+          {error && <p className="text-[#ffd700] ">{error}</p>}
           <div className="w-full flex justify-center gap-[5%]  md:gap-[4vw] ">
             <button
               className="  w-full rounded-[1rem]  capitalize bg-white  hover:bg-opacity-[60%] py-[1rem]   text-center border-red-500 border"
@@ -86,7 +86,7 @@ const Modal_text_edit = ({
               onClick={submit_form}
               disabled={loading}
               type="submit"
-              className="  w-full rounded-[1rem] capitalize text-white  md:rounded-[0.5vw]  py-[1rem]hover:bg-opacity-[60%]  text-center bg-red-500 border"
+              className="  w-full rounded-[1rem] capitalize text-white  md:rounded-[0.5vw]  py-[1rem]hover:bg-opacity-[60%]  text-center bg-[#ffd700] border"
             >
               {loading ? "Uploading..." : "Confirm Upload"}{" "}
             </button>

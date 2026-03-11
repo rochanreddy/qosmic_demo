@@ -41,7 +41,7 @@ const One = (props: any) => {
             transition={{ delay: 0, duration: 1.5 }}
             className="w-full h-auto flex flex-col gap-[4vw] sm:gap-[18vw] sm:pb-[12vw] text nova "
           >
-            <p className="text-[#D01717] nova ">{err}</p>
+            <p className="text-[#ffd700] nova ">{err}</p>
             {/* YOUR NAME  */}
             <div className="flex flex-col">
               <input
@@ -114,7 +114,7 @@ const One = (props: any) => {
             {/* ctn button */}
             <div className="w-full  flex justify-end">
               <button
-                className="nova  text-[1.07vw] font[900] text-white rounded-[2.6vw] px-[3.8vw] py-[1.07vw] bg-[#D01717]  hover:bg-[#920808] flex justify-center items-center gap-[0.4vw] sm:text-[4vw]  sm:block  sm:text-[3vw] font[900]  sm:rounded-[9.75vw] sm:px-[11vw] w-fit sm:py-[3.5vw] bg-[#D01717] sm:text-white hover:bg-[#920808]"
+                className="nova  text-[1.07vw] font[900] text-white rounded-[2.6vw] px-[3.8vw] py-[1.07vw] bg-[#ffd700]  hover:bg-[#ffd700] flex justify-center items-center gap-[0.4vw] sm:text-[4vw]  sm:block  sm:text-[3vw] font[900]  sm:rounded-[9.75vw] sm:px-[11vw] w-fit sm:py-[3.5vw] bg-[#ffd700] sm:text-white hover:bg-[#ffd700]"
                 onClick={() => {
                   handleclick(2);
                 }}

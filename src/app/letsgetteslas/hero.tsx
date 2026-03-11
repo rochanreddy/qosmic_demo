@@ -68,15 +68,15 @@ const Service_hero = ({ show_btn }: any) => {
           `}
         >
           Hi! We{"'"}re
-          <span className="text-[#FF0000]"> Malkain </span>
+          <span className="text-[#ffd700]"> Malkain </span>
           and We Design Websites for{" "}
-          <span className="text-[#FF0000]"> Architects </span>
-          and <span className="text-[#FF0000]"> Home Specialist</span>
+          <span className="text-[#ffd700]"> Architects </span>
+          and <span className="text-[#ffd700]"> Home Specialist</span>
         </h1>
         <p
           className={` sm:hidden ${NeueHaasDisplay_roman.className}  leading-[2.5vw] sm:leading-[4.5vw]  text-[2vw]   sm:text-[4vw]`}
         >
-          We{"'"}ll even design a <span className="text-[#FF0000]"> FREE </span>{" "}
+          We{"'"}ll even design a <span className="text-[#ffd700]"> FREE </span>{" "}
           Gallery Page to see if we{"'"}re <br />
           the right fit - Offer Expires Oct 31*{" "}
         </p>
@@ -92,7 +92,7 @@ const Service_hero = ({ show_btn }: any) => {
               //   event_label: "Customer clicked on Contact Us button",
               // });
             }}
-            className={`nova w-fit sm:hidden cursor-pointer text-[1.07vw] font[900] text-white rounded-[2.6vw] px-[3.3vw] py-[1.07vw] bg-[#D01717] hover:opacity-[70%]  sm:text-[3vw]  sm:rounded-[9.75vw] sm:px-[18vw] ${NeueHaasDisplay_roman.className}  sm:py-[4vw] font_helvetica  sm:text-white sm:mt-[2vw] `}
+            className={`nova w-fit sm:hidden cursor-pointer text-[1.07vw] font[900] text-white rounded-[2.6vw] px-[3.3vw] py-[1.07vw] bg-[#ffd700] hover:opacity-[70%]  sm:text-[3vw]  sm:rounded-[9.75vw] sm:px-[18vw] ${NeueHaasDisplay_roman.className}  sm:py-[4vw] font_helvetica  sm:text-white sm:mt-[2vw] `}
           >
             Get Started{" "}
             <i className="bi ml-[1rem] bi-arrow-right sm:hidden"></i>

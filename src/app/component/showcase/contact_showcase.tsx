@@ -122,7 +122,7 @@ const Contact_showcase = () => {
             value={name}
             placeholder="Name"
             type="text"
-            className="w-full capitalize bg-transparent outline-none border-b-2 transition duration-[0.5s] text-opacity-[100%]   py-[0.4vw]   ease-in-out border-[#D01717] text-[1.6vw] placeholder-[#E8E7D7] focus:border-b-white text-[#E8E7D7] "
+            className="w-full capitalize bg-transparent outline-none border-b-2 transition duration-[0.5s] text-opacity-[100%]   py-[0.4vw]   ease-in-out border-[#ffd700] text-[1.6vw] placeholder-[#E8E7D7] focus:border-b-white text-[#E8E7D7] "
           />
           <input
             onChange={(e) => {
@@ -132,7 +132,7 @@ const Contact_showcase = () => {
             value={email}
             placeholder="Email"
             type="text"
-            className="w-full capitalize bg-transparent outline-none border-b-2 transition duration-[0.5s]   py-[0.4vw]   ease-in-out border-[#D01717] text-[1.6vw] placeholder-[#E8E7D7] focus:border-b-white text-[#E8E7D7] league"
+            className="w-full capitalize bg-transparent outline-none border-b-2 transition duration-[0.5s]   py-[0.4vw]   ease-in-out border-[#ffd700] text-[1.6vw] placeholder-[#E8E7D7] focus:border-b-white text-[#E8E7D7] league"
           />
           <input
             onChange={(e) => {
@@ -142,7 +142,7 @@ const Contact_showcase = () => {
             value={business}
             placeholder="Company Name"
             type="text"
-            className="w-full capitalize bg-transparent outline-none border-b-2 transition duration-[0.5s]   py-[0.4vw]   ease-in-out border-[#D01717] text-[1.6vw] placeholder-[#E8E7D7] focus:border-b-white text-[#E8E7D7] league"
+            className="w-full capitalize bg-transparent outline-none border-b-2 transition duration-[0.5s]   py-[0.4vw]   ease-in-out border-[#ffd700] text-[1.6vw] placeholder-[#E8E7D7] focus:border-b-white text-[#E8E7D7] league"
           />
           <input
             onChange={(e) => {
@@ -152,7 +152,7 @@ const Contact_showcase = () => {
             value={prject_info}
             placeholder="Tell Us About the Project"
             type="text"
-            className="w-full capitalize bg-transparent outline-none border-b-2 transition duration-[0.5s]   py-[0.4vw]   ease-in-out border-[#D01717] text-[1.6vw] placeholder-[#E8E7D7] focus:border-b-white text-[#E8E7D7] league"
+            className="w-full capitalize bg-transparent outline-none border-b-2 transition duration-[0.5s]   py-[0.4vw]   ease-in-out border-[#ffd700] text-[1.6vw] placeholder-[#E8E7D7] focus:border-b-white text-[#E8E7D7] league"
           />
 
           <div className="flex flex-col">
@@ -164,7 +164,7 @@ const Contact_showcase = () => {
                 setinterest(e.target.value);
               }}
               value={interest}
-              className=" w-full bg-[#101519] outline-none border-b-2 transition duration-[0.5s]  py-[0.4vw]  sm:py-[2vw] sm:h-full ease-in-out border-[#D01717] focus:border-b-white text-[#E8E7D7]  text-[1.6vw] placeholder-[#E8E7D7] league"
+              className=" w-full bg-[#101519] outline-none border-b-2 transition duration-[0.5s]  py-[0.4vw]  sm:py-[2vw] sm:h-full ease-in-out border-[#ffd700] focus:border-b-white text-[#E8E7D7]  text-[1.6vw] placeholder-[#E8E7D7] league"
             >
               <option style={{}} value="" disabled selected hidden>
                 Service
@@ -232,7 +232,7 @@ const Contact_showcase = () => {
               name=""
               id=""
               placeholder={"What's your budget ? "}
-              className="   w-full bg-[#101519]  outline-none border-b-2 transition duration-[0.5s]  pr-[0.7vw] py-[0.4vw]  ease-in-out border-[#D01717] focus:border-b-white text-[#E8E7D7]  text-[1.6vw] placeholder-[#E8E7D7] league sm:py-[2vw] sm:h-full"
+              className="   w-full bg-[#101519]  outline-none border-b-2 transition duration-[0.5s]  pr-[0.7vw] py-[0.4vw]  ease-in-out border-[#ffd700] focus:border-b-white text-[#E8E7D7]  text-[1.6vw] placeholder-[#E8E7D7] league sm:py-[2vw] sm:h-full"
               onChange={(e) => {
                 seterr("");
                 const inputValue = e.target.value;
@@ -257,7 +257,7 @@ const Contact_showcase = () => {
             <select
               name=""
               id=""
-              className=" w-full bg-[#101519]  outline-none border-b-2 transition duration-[0.5s]   py-[0.13vw] ease-in-out border-[#D01717] focus:border-b-white text-[#E8E7D7]  sm:py-[2vw] sm:h-full text-[1.6vw] placeholder-[#E8E7D7] league"
+              className=" w-full bg-[#101519]  outline-none border-b-2 transition duration-[0.5s]   py-[0.13vw] ease-in-out border-[#ffd700] focus:border-b-white text-[#E8E7D7]  sm:py-[2vw] sm:h-full text-[1.6vw] placeholder-[#E8E7D7] league"
               onChange={(e) => {
                 seterr("");
                 sethear_us(e.target.value);
@@ -295,7 +295,7 @@ const Contact_showcase = () => {
 
           <div className="w-full h-auto  flex justify-end gap-[1vw] items-center">
             <button
-              className="bg-[#D01717] text-[1.3vw] h-[3vw] w-full hover:bg-[#920808] transition duration-[0.5s] league mt-[0.5vw] flex justify-center items-center"
+              className="bg-[#ffd700] text-[1.3vw] h-[3vw] w-full hover:bg-[#ffd700] transition duration-[0.5s] league mt-[0.5vw] flex justify-center items-center"
               type="submit"
               // onClick={handle_submit}
             >

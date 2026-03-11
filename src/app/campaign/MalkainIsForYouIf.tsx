@@ -77,7 +77,7 @@ const MalkainIsForYouIf = ({ goggle }: any) => {
           className={`pt-[3rem] pb-[2rem] text-center ${NeueHaasDisplay_bold.className} text-4xl`}
         >
           {" "}
-          Qosmic is <br /> for you <span className="text-[#D01717]">if</span>
+          Qosmic is <br /> for you <span className="text-[#ffd700]">if</span>
         </h2>
 
         {/* the bottom process and the mapping function */}

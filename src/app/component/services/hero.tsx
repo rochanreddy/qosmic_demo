@@ -219,7 +219,7 @@ const Hero_services = (props: any) => {
 
             <Link
               href={"contact"}
-              className="nova w-fit  text-[1.07vw] font[900]text-white rounded-[2.6vw] px-[3.3vw] py-[1.07vw] bg-[#D01717] text-white hover:bg-[#920808] sm:text-[3vw] font[900]  sm:rounded-[9.75vw] sm:px-[12vw]  sm:py-[4vw]  sm:text-white sm:mt-[2vw] "
+              className="nova w-fit  text-[1.07vw] font[900]text-white rounded-[2.6vw] px-[3.3vw] py-[1.07vw] bg-[#ffd700] text-white hover:bg-[#ffd700] sm:text-[3vw] font[900]  sm:rounded-[9.75vw] sm:px-[12vw]  sm:py-[4vw]  sm:text-white sm:mt-[2vw] "
             >
               Work with us <i className="bi bi-arrow-right sm:hidden"></i>
             </Link>
@@ -247,7 +247,7 @@ const Hero_services = (props: any) => {
           <div className="absolute top-0 left-0 h-[13vw]   sm:h-[50vw]  w-full  bg-gradient-to-b from-[white] z-[20]"></div>
           {/* second relative box */}
           <div className="absolute bottom-0 left-0 h-[13vw]  sm:h-[50vw]  w-full  bg-gradient-to-t from-[white] z-[20]"></div>
-          {/* <div className="absolute top-[13vw]  left-0 h-[6vw]  w-full text-black bg-[red]"></div> */}
+          {/* <div className="absolute top-[13vw]  left-0 h-[6vw]  w-full text-black bg-[#ffd700]"></div> */}
 
           {/* the normaltext animation   */}
           <div
@@ -258,7 +258,7 @@ const Hero_services = (props: any) => {
                 <p
                   key={index}
                   className={`w-full text-[4.2vw] sm:text-[4.3vw] sm:font-[600] sm:text-center  h-[6vw] sm:h-[12vw] flex justify-center transition duration-[0.1s] items-center font-[helvetica] text-[${
-                    e.class == check_num ? "#D01717" : "black"
+                    e.class == check_num ? "#ffd700" : "black"
                   }]  `}
                 >
                   {e.des}
@@ -278,7 +278,7 @@ const Hero_services = (props: any) => {
         {/*  */}
         {/*  */}
 
-        {/* <div className="absolute top-[13vw]  left-0 h-[6vw]  w-full text-black bg-[red]"></div> */}
+        {/* <div className="absolute top-[13vw]  left-0 h-[6vw]  w-full text-black bg-[#ffd700]"></div> */}
 
         {/* the normaltext animation */}
         <div
@@ -289,7 +289,7 @@ const Hero_services = (props: any) => {
               <p
                 key={index}
                 className={`w-full text-[4.3vw] sm:text-center sm:text-[5.95vw] text-center sm:font-[600]  flex justify-center transition duration-[0.1s] items-center font-[helvetica] text-[${
-                  e.class == check_num ? "#D01717" : "#808080"
+                  e.class == check_num ? "#ffd700" : "#808080"
                 }] `}
               >
                 {e.des}

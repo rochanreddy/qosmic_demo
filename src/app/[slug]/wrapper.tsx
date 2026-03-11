@@ -239,7 +239,7 @@ const Campaign_Home_wrapper = ({ form_link, id }: any) => {
             //   event_label: "Customer clicked on Contact Us button",
             // });
           }}
-          className={`${NeueHaasDisplay_roman.className} league sm:w-[85vw] z-[10] border2 shadow-sm w-[12vw] h-[2.8vw] sm:h-[13vw] text-[1.2vw] sm:text-[5vw] hover:bg-[#920808] bg-[#D01717] text-white  rounded-[1.5vw] sm:rounded-[9.75vw]`}
+          className={`${NeueHaasDisplay_roman.className} league sm:w-[85vw] z-[10] border2 shadow-sm w-[12vw] h-[2.8vw] sm:h-[13vw] text-[1.2vw] sm:text-[5vw] hover:bg-[#ffd700] bg-[#ffd700] text-white  rounded-[1.5vw] sm:rounded-[9.75vw]`}
         >
           <p className="w-full h-full flex justify-center items-center ">
             {" "}
@@ -276,7 +276,7 @@ const Campaign_Home_wrapper = ({ form_link, id }: any) => {
         text_color={"#000000"}
       />
       {/* <Calendy text_color={"#000000"} /> */}
-      {/* <Footer landing={true} btn_bg_color={"#D01717"} /> */}
+      {/* <Footer landing={true} btn_bg_color={"#ffd700"} /> */}
     </>
   );
 };

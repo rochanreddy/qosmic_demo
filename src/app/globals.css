@@ -292,13 +292,13 @@ input[type="number"] {
 }
 
 .edges {
-  background-color: #7c1a1a;
+  background-color: #ffd700;
 }
 
 /* for the home client section
  */
 .home_edge {
-  background-color: #d01717;
+  background-color: #ffd700;
 }
 
 /* agile movement on the home page thats fot the animation that goes up nd down around  */

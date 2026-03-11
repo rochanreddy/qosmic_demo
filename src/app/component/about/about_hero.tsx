@@ -46,9 +46,9 @@ const About_hero = () => {
         />
         <div className="w-full flex-col h-auto flex justify-center items-center gap-[1.33vw] sm:gap-[3vw] ">
           <h1 className="text-[#424242] text-[5.33vw] sm:text-[8vw] text-center novabold font-bold leading-[6.7vw] sm:leading-[9.6vw]">
-            We <span className="text-[#FF0000]">integrate</span> and <br />{" "}
+            We <span className="text-[#ffd700]">integrate</span> and <br />{" "}
             <span className="text-[#000000]">collaborate</span>{" "}
-            <span className="text-[#FF0000]">together.</span>
+            <span className="text-[#ffd700]">together.</span>
           </h1>
 
           <p className="text-center text-[1.33vw] sm:hidden text-black text-opacity-[75%] nova">

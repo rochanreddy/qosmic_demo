@@ -87,7 +87,7 @@ const Writing = ({
               onClick={() => {
                 scrollTo_calendy();
               }}
-              className="  text-[20px] h-auto font[500]  rounded-[39px] px-[50px] py-[16px] bg-[#D01717] text-white hover:opacity-[70%] sm:text-[3.5vw] sm:mb-[18vw] sm:mt-[2vw]"
+              className="  text-[20px] h-auto font[500]  rounded-[39px] px-[50px] py-[16px] bg-[#ffd700] text-white hover:opacity-[70%] sm:text-[3.5vw] sm:mb-[18vw] sm:mt-[2vw]"
               style={{ backgroundColor: btn_bg_color ? btn_bg_color : "" }}
             >
               Let{"'"}s Build <i className="bi bi-arrow-right"></i>

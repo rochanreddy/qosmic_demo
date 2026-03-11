@@ -273,7 +273,7 @@ const Hands = (props: any) => {
               </p> */}
             </div>
             <div className="flex text-white sm:gap-[5vw] sm:pb-[10vw]">
-              <div className="w-[4vw] h-full  text-[red] font-[900] text-[2.7vw] justify-center flex">
+              <div className="w-[4vw] h-full  text-[#ffd700] font-[900] text-[2.7vw] justify-center flex">
                 <Image
                   priority
                   src={add_logo}
@@ -334,7 +334,7 @@ const Hands = (props: any) => {
                   href={e.link}
                   target="_blank"
                   key={index}
-                  className={`w-[10.7vw] hover:bg-[darkred] transisition duration-[0.5s] bg-black  ${e.class} flex justify-center items-center  h-[10.7vw] absolute rounded-[100%] py-[1vw] px-[1.4vw] border-[0.05vw] border-white border-opacity-[30%] hover:border-black`}
+                  className={`w-[10.7vw] hover:bg-[#ffd700] transisition duration-[0.5s] bg-black  ${e.class} flex justify-center items-center  h-[10.7vw] absolute rounded-[100%] py-[1vw] px-[1.4vw] border-[0.05vw] border-white border-opacity-[30%] hover:border-black`}
                   style={{
                     top: e.top,
                     right: e.right,
@@ -399,7 +399,7 @@ const Hands = (props: any) => {
                         href={e.link}
                         target="_blank"
                         key={index}
-                        className={`w-[27vw] h-[27vw] hover:bg-[darkred] transisition duration-[0.5s] bg-black  ${e.class} flex justify-center items-center    rounded-[100%] px-[3vw] py-[3vw] border-[0.05vw] border-white border-opacity-[30%] hover:border-black`}
+                        className={`w-[27vw] h-[27vw] hover:bg-[#ffd700] transisition duration-[0.5s] bg-black  ${e.class} flex justify-center items-center    rounded-[100%] px-[3vw] py-[3vw] border-[0.05vw] border-white border-opacity-[30%] hover:border-black`}
                       >
                         <span className="text-white text-center font-bold text-[3vw] nova">
                           {e.name}
@@ -415,7 +415,7 @@ const Hands = (props: any) => {
                         href={e.link}
                         target="_blank"
                         key={index}
-                        className={`w-[27vw] h-[27vw] hover:bg-[darkred] transisition duration-[0.5s] bg-black  ${e.class} flex justify-center items-center    rounded-[100%] px-[3vw] py-[3vw] border-[0.05vw] border-white border-opacity-[30%] hover:border-black`}
+                        className={`w-[27vw] h-[27vw] hover:bg-[#ffd700] transisition duration-[0.5s] bg-black  ${e.class} flex justify-center items-center    rounded-[100%] px-[3vw] py-[3vw] border-[0.05vw] border-white border-opacity-[30%] hover:border-black`}
                       >
                         <span className="text-white text-center font-bold text-[3vw] nova">
                           {e.name}

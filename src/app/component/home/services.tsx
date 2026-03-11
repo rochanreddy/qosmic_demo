@@ -187,7 +187,7 @@ const Services = () => {
       {/* first div */}
       <div className="w-full flex sm:flex-col sm:gap-[4vw] sm:items-start justify-between items-center  h-auto text-white">
         <div className="flex flex-col gap-[3vw]  font-[helvetica] ">
-          <p className="text-[#D01717] text-[1.6vw] sm:text-[3.5vw] font-bold">
+          <p className="text-[#ffd700] text-[1.6vw] sm:text-[3.5vw] font-bold">
             Services
           </p>
           <h3 className=" text-[4vw]  font-[500] sm:text-[6vw]">
@@ -218,7 +218,7 @@ const Services = () => {
           className="absolute bottom-[-1vw] left-0 h-[13vw]  sm:h-[50vw]  w-full   bg-gradient-to-t from-[black] z-[20]"
           style={{ overflow: "clip" }}
         ></div>
-        {/* <div className="absolute top-[13vw]  left-0 h-[6vw]  w-full text-black bg-[red]"></div> */}
+        {/* <div className="absolute top-[13vw]  left-0 h-[6vw]  w-full text-black bg-[#ffd700]"></div> */}
 
         {/* the normaltext animation */}
         <div
@@ -226,12 +226,12 @@ const Services = () => {
         >
           {service_arr.map((e: any, index: any) => {
             return (
-              <p
-                key={index}
-                className={`w-full text-[4.2vw] sm:text-[4.3vw] sm:font-[600] sm:text-center  h-[6vw] sm:h-[12vw] flex justify-center transition duration-[0.1s] items-center font-[helvetica] text-[${
-                  e.class == check_num ? "#D01717" : "white"
+                <p
+                  key={index}
+                  className={`w-full text-[4.2vw] sm:text-[4.3vw] sm:font-[600] sm:text-center  h-[6vw] sm:h-[12vw] flex justify-center transition duration-[0.1s] items-center font-[helvetica] text-[${
+                  e.class == check_num ? "#ffd700" : "white"
                 }]  `}
-              >
+                >
                 {e.des}
               </p>
             );
@@ -253,7 +253,7 @@ const Services = () => {
       {/*  */}
       {/*  */}
 
-      {/* <div className="absolute top-[13vw]  left-0 h-[6vw]  w-full text-black bg-[red]"></div> */}
+      {/* <div className="absolute top-[13vw]  left-0 h-[6vw]  w-full text-black bg-[#ffd700]"></div> */}
 
       {/* the normaltext animation */}
       <div
@@ -264,7 +264,7 @@ const Services = () => {
             <p
               key={index}
               className={`w-full text-[4.5vw] sm:text-center sm:text-[5.9vw] text-center sm:font-[600]  flex justify-center transition duration-[0.1s] items-center font-[helvetica] text-[${
-                e.class == check_num ? "#D01717" : "#808080"
+                e.class == check_num ? "#ffd700" : "#808080"
               }] `}
             >
               {e.des}

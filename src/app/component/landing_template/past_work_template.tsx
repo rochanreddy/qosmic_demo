@@ -592,9 +592,9 @@ const Past_work_template = ({
         {/* this is for mobile */}
         {/* Dropdown for mobile devices */}
         {/* THIS WAS HIDDEN BECAUSE OF MALKAIN UPDATE */}
-        <div className="hidden w-full  sm:mx-auto   bg-[#FF0000] py-[2vw] overflow-hidden  justify-center border2 relative sm:w-[50vw] sm:rounded-[8.75vw] sm:text-[3.5vw]   sm:h-[11.2vw]">
+        <div className="hidden w-full  sm:mx-auto   bg-[#ffd700] py-[2vw] overflow-hidden  justify-center border2 relative sm:w-[50vw] sm:rounded-[8.75vw] sm:text-[3.5vw]   sm:h-[11.2vw]">
           <select
-            className={`sm:text-[5vw] select relative bg-[#FF0000]  outline-none  ${NeueHaasDisplay_roman.className} capitalize  justify-center text-center   text-white`}
+            className={`sm:text-[5vw] select relative bg-[#ffd700]  outline-none  ${NeueHaasDisplay_roman.className} capitalize  justify-center text-center   text-white`}
             onChange={(e) => setactive(e.target.value)}
             value={active}
           >

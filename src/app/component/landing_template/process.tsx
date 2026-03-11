@@ -127,7 +127,7 @@ const Processes = ({
                   className={`   gap-[7vw]  ${
                     e.center
                       ? `w-[26vw]  h-[20vw] sm:w-full sm:h-auto  sm:rounded-[7vw]  ${
-                          btn_bg_color ? "bg-[#226DFF]" : "bg-[#D01717]"
+                          btn_bg_color ? "bg-[#226DFF]" : "bg-[#ffd700]"
                         }   rounded-[2vw] sm:mb-[4vw] items-center z-[99] px-[2vw] sm:py-[6vw] sm:px-[4vw]`
                       : "w-full h-auto sm:pb-[4vw] sm:text-center sm:flex-col sm:items-center items-start"
                   }    flex justify-center  ${
@@ -220,7 +220,7 @@ const Processes = ({
                                 scrollTo_calendy();
                               }}
                               style={{
-                                backgroundColor: "#D01717",
+                                backgroundColor: "#ffd700",
                                 // color: btn_bg_color && btn_bg_color,
                               }}
                               className={` sm:w-[35vw] capitalize sm:text-[3.72vw]   sm:h-[11vw]  w-[10.5vw] h-[3.2vw] rounded-[3vw] sm:rounded-[8.75vw] text-[1.06vw] ${CabinetGrotesk_bold.className} text-[white] bg-[#F3F3F3] `}
@@ -230,7 +230,7 @@ const Processes = ({
                             <External_btn
                               h={"3.2"}
                               w={"3.2"}
-                              bg={"#D01717"}
+                              bg={"#ffd700"}
                               img={"blue"}
                               arrow_icon={arrow_icon}
                               btn_bg_color={btn_bg_color}

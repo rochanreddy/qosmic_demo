@@ -34,7 +34,7 @@ const Footer = ({ landing, btn_bg_color }: any) => {
           {!landing && (
             <Link
               href={"contact"}
-              className="nova hidden sm:block z-[10]   sm:text-[3vw] font[900]  sm:rounded-[9.75vw] sm:px-[15vw] w-fit sm:py-[4vw] bg-[#D01717] sm:text-white hover:bg-[#920808]"
+              className="nova hidden sm:block z-[10]   sm:text-[3vw] font[900]  sm:rounded-[9.75vw] sm:px-[15vw] w-fit sm:py-[4vw] bg-[#ffd700] sm:text-white hover:bg-[#ffd700]"
             >
               Work with us <i className="bi bi-arrow-right"></i>
             </Link>
@@ -116,7 +116,7 @@ const Footer = ({ landing, btn_bg_color }: any) => {
               {!landing ? (
                 <Link
                   href={"contact"}
-                  className="nova  text-[1.3vw] font[900] sm:hidden rounded-[39px] px-[3vw] py-[1vw] bg-[#D01717] text-center text-white hover:bg-[#920808]"
+                  className="nova  text-[1.3vw] font[900] sm:hidden rounded-[39px] px-[3vw] py-[1vw] bg-[#ffd700] text-center text-white hover:bg-[#ffd700]"
                 >
                   Work with us <i className="bi bi-arrow-right"></i>
                 </Link>
@@ -127,7 +127,7 @@ const Footer = ({ landing, btn_bg_color }: any) => {
                     scrollTo_calendy();
                   }}
                   style={{ backgroundColor: btn_bg_color ? btn_bg_color : "" }}
-                  className="nova  text-[1.3vw] font[900] sm:hidden rounded-[39px] px-[3vw] py-[1vw] bg-[#D01717] text-center text-white  hover:opacity-[70%]  "
+                  className="nova  text-[1.3vw] font[900] sm:hidden rounded-[39px] px-[3vw] py-[1vw] bg-[#ffd700] text-center text-white  hover:opacity-[70%]  "
                 >
                   Work with us <i className="bi bi-arrow-right"></i>
                 </button>

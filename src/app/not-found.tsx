@@ -86,7 +86,7 @@ export default function NotFound() {
             </div>
             <Link
               href={"/"}
-              className="text-white hover:text-[red] text-[2vw] sm:text-[3vw] transition duration-[0.6s] hover:underline hover:underline-offset-4 nova capitalize "
+              className="text-white hover:text-[#ffd700] text-[2vw] sm:text-[3vw] transition duration-[0.6s] hover:underline hover:underline-offset-4 nova capitalize "
             >
               Return to homepage
             </Link>

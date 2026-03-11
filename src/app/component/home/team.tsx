@@ -75,7 +75,7 @@ const Home_Team = () => {
             </p>
           </div>
 
-          <div className="flex w-full h-[10.3vw] sm:w-[95vw] sm:h-[38vw] sm:rounded-[5.57vw] sm:px-[4vw] sm:py-[3vw] rounded-[2vw] bg-[#D01717] border2 flex-col p-[1.25vw] justify-between text-white">
+          <div className="flex w-full h-[10.3vw] sm:w-[95vw] sm:h-[38vw] sm:rounded-[5.57vw] sm:px-[4vw] sm:py-[3vw] rounded-[2vw] bg-[#ffd700] border2 flex-col p-[1.25vw] justify-between text-white">
             <div className="w-full flex justify-between font-[helvetica] ">
               <p className="text-[3.5vw] sm:text-[10vw]">34</p>
               <p className="py-[0.7vw] px-[1vw] bg-white  bg-opacity-[26%] rounded-[1.4vw] h-fit text-[1.3vw] sm:text-[3vw] sm:px-[3vw] sm:py-[2vw] sm:rounded-[7.6vw]">
@@ -123,7 +123,7 @@ const Home_Team = () => {
             </p>
           </div>
 
-          <div className="flex w-full h-[10.3vw] sm:w-[95vw] sm:h-[38vw] sm:rounded-[5.57vw] sm:px-[4vw] sm:py-[3vw] rounded-[2vw] bg-[#D01717] border2 flex-col p-[1.25vw] justify-between text-white">
+          <div className="flex w-full h-[10.3vw] sm:w-[95vw] sm:h-[38vw] sm:rounded-[5.57vw] sm:px-[4vw] sm:py-[3vw] rounded-[2vw] bg-[#ffd700] border2 flex-col p-[1.25vw] justify-between text-white">
             <div className="w-full flex justify-between font-[helvetica] ">
               <p className="text-[3.5vw] nova sm:text-[10vw]">34</p>
               <p className="py-[0.7vw] px-[1vw] bg-white  bg-opacity-[26%] rounded-[1.4vw] h-fit text-[1.3vw] sm:text-[3vw] sm:px-[3vw] sm:py-[2vw] sm:rounded-[7.6vw]">

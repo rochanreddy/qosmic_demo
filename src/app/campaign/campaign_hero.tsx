@@ -100,7 +100,7 @@ const Campaign_hero = ({ show_btn, form_link, goggle }: any) => {
         >
           {goggle ? "Ecommerce websites" : "Websites"} built for yesterday, won
           {"'"}t <br /> convert today{"'"}s customers{" "}
-          <span className="text-[#FF0000]"> </span>
+          <span className="text-[#ffd700]"> </span>
         </h1>
         <p
           className={`${NeueHaasDisplay_light.className}  relative text-center text-[2vw] leading-[2.2vw] `}
@@ -118,7 +118,7 @@ const Campaign_hero = ({ show_btn, form_link, goggle }: any) => {
             className={`${NeueHaasDisplay_light.className} sm:text-[6vw] sm:leading-[7vw] text-[2vw] leading-[2.4vw] `}
           >
             Landing Pages <br /> Custom Apps <br />
-            <span className="text-[#FF0000]"> Websites</span>
+            <span className="text-[#ffd700]"> Websites</span>
           </p>
         </div> */}
         {show_btn && (
@@ -133,7 +133,7 @@ const Campaign_hero = ({ show_btn, form_link, goggle }: any) => {
               //   event_label: "Customer clicked on Contact Us button",
               // });
             }}
-            className={`nova w-fit sm:hidden cursor-pointer text-[1.07vw] font[900] text-white rounded-[2.6vw] px-[3.3vw] py-[1.07vw] bg-[#D01717] hover:opacity-[70%]  sm:text-[3vw]  sm:rounded-[9.75vw] sm:px-[18vw] ${NeueHaasDisplay_roman.className}  sm:py-[4vw] font_helvetica  sm:text-white sm:mt-[2vw] `}
+            className={`nova w-fit sm:hidden cursor-pointer text-[1.07vw] font[900] text-white rounded-[2.6vw] px-[3.3vw] py-[1.07vw] bg-[#ffd700] hover:opacity-[70%]  sm:text-[3vw]  sm:rounded-[9.75vw] sm:px-[18vw] ${NeueHaasDisplay_roman.className}  sm:py-[4vw] font_helvetica  sm:text-white sm:mt-[2vw] `}
           >
             Get Started{" "}
             <i className="bi ml-[1rem] bi-arrow-right sm:hidden"></i>

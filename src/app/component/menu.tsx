@@ -66,7 +66,7 @@ const Menu = (props: any) => {
         style={{ height: height }}
       >
         <motion.div
-          animate={{ y: left, backgroundColor: "#D01717", opacity: opacity }}
+          animate={{ y: left, backgroundColor: "#ffd700", opacity: opacity }}
           initial={{ y: "100%" }}
           transition={{ duration: 0.7 }}
           className="h-[100vh] hide_menu relative  w-[30vw] px-[2.6vw] pb-[5.3vw] pt-[3.35vw] flex items-center"
@@ -130,9 +130,9 @@ const Menu = (props: any) => {
                       >
                         <Link
                           href={e.link}
-                          className="novabold capitalize text-[4.6vw] sm:text-[45px] leading-[100%] cursor-pointer hover:text-[#CD6464] transition duration-[1]"
+                          className="novabold capitalize text-[4.6vw] sm:text-[45px] leading-[100%] cursor-pointer hover:text-[#ffd700] transition duration-[1]"
                           style={{
-                            color: e.link == pathname ? "#D01717" : "",
+                            color: e.link == pathname ? "#ffd700" : "",
                           }}
                         >
                           {e.txt}
@@ -208,9 +208,9 @@ const Menu = (props: any) => {
                       >
                         <Link
                           href={e.link}
-                          className="novabold capitalize text-[4.6vw] sm:text-[45px] leading-[100%] cursor-pointer hover:text-[#CD6464] transition duration-[1]"
+                          className="novabold capitalize text-[4.6vw] sm:text-[45px] leading-[100%] cursor-pointer hover:text-[#ffd700] transition duration-[1]"
                           style={{
-                            color: e.link == pathname ? "#D01717" : "",
+                            color: e.link == pathname ? "#ffd700" : "",
                           }}
                         >
                           {e.txt}

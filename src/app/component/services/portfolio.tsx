@@ -15,7 +15,7 @@ const Portfolio = () => {
           {/* the button */}
           <Link
             href="works"
-            className="nova hidden sm:block  sm:text-[3vw] font[900]  sm:rounded-[9.75vw] sm:px-[8vw] w-fit sm:py-[4vw] bg-[#D01717] sm:text-white hover:bg-[#920808]"
+            className="nova hidden sm:block  sm:text-[3vw] font[900]  sm:rounded-[9.75vw] sm:px-[8vw] w-fit sm:py-[4vw] bg-[#ffd700] sm:text-white hover:bg-[#ffd700]"
           >
             See more <i className="bi bi-arrow-right"></i>
           </Link>

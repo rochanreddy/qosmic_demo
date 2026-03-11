@@ -225,7 +225,7 @@ const Mobile_Live_past_work = ({
                         {/* now the button */}
                         <div className="flex justify-center sm:px-[3vw]">
                           <button
-                            className={` sm:w-[39vw] sm:block hidden sm:h-[10vw] w-[13.5vw] h-[4.5vw] rounded-[0.73vw] sm:rounded-[8.75vw] sm:text-[3.5vw] ${NeueHaasDisplay_roman.className} bg-[#D01717] text-white`}
+                            className={` sm:w-[39vw] sm:block hidden sm:h-[10vw] w-[13.5vw] h-[4.5vw] rounded-[0.73vw] sm:rounded-[8.75vw] sm:text-[3.5vw] ${NeueHaasDisplay_roman.className} bg-[#ffd700] text-white`}
                           >
                             Preview the website
                           </button>
@@ -273,7 +273,7 @@ const Mobile_Live_past_work = ({
                         {/* now the button */}
                         <div className="flex justify-center sm:px-[3vw]">
                           <button
-                            className={` sm:w-[39vw] sm:block hidden sm:h-[10vw] w-[13.5vw] h-[4.5vw] rounded-[0.73vw] sm:rounded-[8.75vw] sm:text-[3.5vw] ${NeueHaasDisplay_roman.className} bg-[#D01717] text-white`}
+                            className={` sm:w-[39vw] sm:block hidden sm:h-[10vw] w-[13.5vw] h-[4.5vw] rounded-[0.73vw] sm:rounded-[8.75vw] sm:text-[3.5vw] ${NeueHaasDisplay_roman.className} bg-[#ffd700] text-white`}
                           >
                             Preview the website
                           </button>
@@ -327,7 +327,7 @@ const Mobile_Live_past_work = ({
                         {/* now the button */}
                         <div className="flex justify-center sm:px-[3vw]">
                           <button
-                            className={` sm:w-[39vw] sm:block hidden sm:h-[10vw] w-[13.5vw] h-[4.5vw] rounded-[0.73vw] sm:rounded-[8.75vw] sm:text-[3.5vw] ${NeueHaasDisplay_roman.className} bg-[#D01717] text-white`}
+                            className={` sm:w-[39vw] sm:block hidden sm:h-[10vw] w-[13.5vw] h-[4.5vw] rounded-[0.73vw] sm:rounded-[8.75vw] sm:text-[3.5vw] ${NeueHaasDisplay_roman.className} bg-[#ffd700] text-white`}
                           >
                             Preview the website
                           </button>
@@ -374,7 +374,7 @@ const Mobile_Live_past_work = ({
                         {/* now the button */}
                         <div className="flex justify-center sm:px-[3vw]">
                           <button
-                            className={` sm:w-[39vw] sm:block hidden sm:h-[10vw] w-[13.5vw] h-[4.5vw] rounded-[0.73vw] sm:rounded-[8.75vw] sm:text-[3.5vw] ${NeueHaasDisplay_roman.className} bg-[#D01717] text-white`}
+                            className={` sm:w-[39vw] sm:block hidden sm:h-[10vw] w-[13.5vw] h-[4.5vw] rounded-[0.73vw] sm:rounded-[8.75vw] sm:text-[3.5vw] ${NeueHaasDisplay_roman.className} bg-[#ffd700] text-white`}
                           >
                             Preview website
                           </button>
@@ -399,7 +399,7 @@ const Mobile_Live_past_work = ({
                 event_label: "Customer clicked on Contact Us button",
               });
             }}
-            className={` sm:w-[60vw] sm:block hidden sm:h-[12vw] w-[13.5vw] h-[4.5vw] rounded-[0.73vw] sm:rounded-[8.75vw] sm:text-[4.5vw] ${NeueHaasDisplay_roman.className} bg-[#D01717] text-white`}
+            className={` sm:w-[60vw] sm:block hidden sm:h-[12vw] w-[13.5vw] h-[4.5vw] rounded-[0.73vw] sm:rounded-[8.75vw] sm:text-[4.5vw] ${NeueHaasDisplay_roman.className} bg-[#ffd700] text-white`}
           >
             Get started
           </button>
